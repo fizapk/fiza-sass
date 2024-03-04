@@ -1,0 +1,28 @@
+
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $secondary-color;
+
+  > * {
+    padding-left: 30;
+  }
+  p {
+    font-size: 1.rem; // 16.6.1.1 changing size of paragraphs and lists //
+    width: 55%;
+    min-width: 550px;
+    line-height: 1.5; // 16.6.1.2 changing the line height to give some space between lines of text //
+  }
+
+  h1, h2, h3, h4 {
+    font-size: 2rem; // 16.6.1.1 chanigng size of headlines. //
+  }
+    
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+}
